@@ -10,9 +10,8 @@ import java.util.Optional;
 
 @Service
 public class CustomerServiceImpl implements CustomerService{
-
-    @Autowired
     private CustomerRepository customerRepository;
+
     @Override
     public Optional<Customer> findCustomerById(int id) {
         return customerRepository.findById(id);
