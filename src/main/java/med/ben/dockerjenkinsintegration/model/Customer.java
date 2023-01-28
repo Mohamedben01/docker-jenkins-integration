@@ -1,14 +1,14 @@
 package med.ben.dockerjenkinsintegration.model;
 
-public class customer {
+public class Customer {
 
     private int id;
     private String fullName;
     private String email;
 
-    public customer() {}
+    public Customer() {}
 
-    public customer(int id, String fullName, String email) {
+    public Customer(int id, String fullName, String email) {
         this.id = id;
         this.fullName = fullName;
         this.email = email;
